@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Contenedor from '../components/Contenedor'
+import Footer from '../components/footer'
 import Header from '../components/Header'
 import Quotes from '../components/Quotes'
 
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Header/> 
      <Contenedor/>
+     <Footer/>
 
 
     </div>

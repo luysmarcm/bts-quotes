@@ -4,8 +4,8 @@ import Quotes from './Quotes'
 
 const Contenedor = () => {
   return (
-		<div className="grid grid-cols-2 p-32">
-			<div style={{width:"40%"}}>
+		<div className="grid grid-cols-2 p-40">
+			<div className='object-center' style={{width:"35%"}}>
 				<Image
 					src="/imagen/bts.png"
 					alt="BTS"
