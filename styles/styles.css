@@ -1,0 +1,59 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+*{
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Maven Pro", sans-serif;
+	background-color: #0e0c0c;
+}
+
+.imagen {
+	transition: all 500ms linear;
+}
+
+.imagen .hijo {
+	transition: all 500ms;
+	transform: translateY(100%);
+}
+
+.imagen:hover .hijo {
+	transform: translateY(0);
+}
+
+.menu {
+	transition: all 500ms linear;
+}
+
+.textShadow {
+	text-shadow: 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.content {
+	flex: 1 1 auto;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #B993D6 0%, #8CA6DB  51%, #B993D6  100%)}
+.btn-grad {
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: black;            
+            box-shadow: 0 0 20px #eee;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: black;
+            text-decoration: none;
+          }
+
+
+		  
