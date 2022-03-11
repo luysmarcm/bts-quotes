@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Contenedor from '../components/Contenedor'
-import Footer from '../components/footer'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
-import Quotes from '../components/Quotes'
 
 export default function Home() {
 
