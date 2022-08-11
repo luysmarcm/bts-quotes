@@ -11,6 +11,7 @@ class MyDocument extends Document {
 		return (
 			<Html lang="es-Es">
 				<Head>
+					<link rel="manifest" href="/manifest.json" />
 					<meta name="theme-color" content="#00000" />
 					<meta name="google" content="notranslate" />
 					<link rel="icon" href="/favicon.ico" />
