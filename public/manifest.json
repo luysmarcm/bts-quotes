@@ -1,7 +1,7 @@
 {
     "theme_color": "#4c2882",
     "background_color": "#4c2882",
-    "display": "standalone",
+    "display": "fullscreen",
     "scope": "/",
     "start_url": "/",
     "name": "bts-quotes",
