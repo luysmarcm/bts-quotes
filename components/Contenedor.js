@@ -4,7 +4,7 @@ import Quotes from './Quotes'
 
 const Contenedor = () => {
   return (
-		<div className="grid grid-cols-2 p-40">
+		<div className="grid lg:grid-cols-2 p-10 py-32 lg:p-40 gap-8">
 			<div className='object-center' style={{width:"35%"}}>
 				<Image
 					src="/imagen/bts.png"

@@ -1,12 +1,11 @@
 {
-    "theme_color": "#4c2882",
-    "background_color": "#4c2882",
-    "display": "fullscreen",
+    "theme_color": "#1fd4c0",
+    "background_color": "#259409",
+    "display": "standalone",
     "scope": "/",
     "start_url": "/",
     "name": "bts-quotes",
     "short_name": "bts-quotes",
-    "description": "Bts quotes",
     "icons": [
         {
             "src": "/icon-192x192.png",
@@ -28,5 +27,6 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ]
+    ],
+    "description": "Bts quotes"
 }
